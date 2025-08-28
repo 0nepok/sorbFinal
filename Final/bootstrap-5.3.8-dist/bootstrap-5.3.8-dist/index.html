@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>เที่ยวชลบุรี</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">เที่ยวชลบุรี</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">หน้าแรก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="place.html">สถานที่ท่องเที่ยว</a></li>
+                    <li class="nav-item"><a class="nav-link" href="food.html">ร้านอาหาร</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hotel.html">ที่พัก</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pig/campchang.png" class="d-block w-100" alt="แคมพ์ช้าง"
+                    style="height:800px; object-fit:cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="pig/walk.jpg" class="d-block w-100" alt="Walking Street"
+                    style="height:800px; object-fit:cover;">
+            </div>
+            <div class="carousel-item">
+                <img src="pig/pattaya.png" class="d-block w-100" alt="Pattaya" style="height:800px; object-fit:cover;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center">สถานที่ท่องเที่ยวยอดนิยม</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="pig/cam2.png" class="card-img-top" alt="แคมพ์ช้าง" style="height:250px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">แคมพ์ช้าง</h5>
+                        <p class="card-text">สวนสัตว์ที่มีความเป็นธรรมชาติและสวยมาก</p>
+                        <a href="place.html" class="btn btn-primary">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="pig/หาด.jpg" class="card-img-top" alt="Pattaya Beach" style="height:250px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">หาดพัทยา</h5>
+                        <p class="card-text">หวดแสนสวยสะอาดตา</p>
+                        <a href="place.html" class="btn btn-primary">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="pig/under.jpg" class="card-img-top" alt="Aquarium" style="height:250px; object-fit:cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Underwater world</h5>
+                        <p class="card-text">อควาเรียมใต้น้ำสุดฟรุ้งฟริ้ง</p>
+                        <a href="place.html" class="btn btn-primary">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        © 2025 เที่ยวชลบุรี | ออกแบบโดย Bootstrap
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
